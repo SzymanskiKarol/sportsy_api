@@ -5,7 +5,6 @@ const PinSchema = new mongoose.Schema({
     title: { type: String, required: true, min: 3 },
     desc: { type: String, required: true, min: 3 },
     sport: { type: String, required: true },
-    rating: { type: Number, required: true, min: 0, max: 5 },
     lat: { type: Number, required: true },
     long: { type: Number, required: true }
 }, { timestamps: true })
